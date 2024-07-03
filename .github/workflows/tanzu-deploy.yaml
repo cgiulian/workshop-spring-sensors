@@ -19,5 +19,6 @@ jobs:
         with:
           tanzu_api_token: ${{ secrets.TanzuApiToken }}
           container_registry: ghcr.io/${{ github.actor }}/sensors-workshop
+          buildPlanSource: custom-build-plan
           project: workshop01
           space: cgiuliano-demo
